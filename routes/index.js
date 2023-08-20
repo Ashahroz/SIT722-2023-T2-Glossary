@@ -124,6 +124,66 @@ router.get('/', function(req, res, next) {
       "Description": "Core principles in the DevOps culture, including automation, collaboration, continuous feedback, and shared responsibility between development and operations teams.",
       "References": "[20] S. Roddewig, “7 Principles of DevOps for Successful Development Teams,” blog.hubspot.com. https://blog.hubspot.com/website/devops-principles"
     },
+    {
+      "ID": 21,
+      "Term": "Containers",
+      "Description": "Lightweight and isolated environments that package applications and their dependencies, enabling consistent deployment across different computing environments.",
+      "References": "[21] Docker, “What is a Container?,” Docker. https://www.docker.com/resources/what-container/"
+    },
+    {
+      "ID": 22,
+      "Term": "Virtual Machines",
+      "Description": "Virtualized instances of operating systems that emulate dedicated hardware, allowing multiple operating systems to run on a single physical host.",
+      "References": "[22] “What is a Virtual Machine? | VMware Glossary,” VMware, Aug. 04, 2022. https://www.vmware.com/au/topics/glossary/content/virtual-machine.html#:~:text=A%20Virtual%20Machine%20(VM)%20is"
+    },
+    {
+      "ID": 23,
+      "Term": "Container Images",
+      "Description": "Standalone, executable packages that include application code, runtime, libraries, and settings, enabling consistent application deployment and scaling.",
+      "References": "[23] “What is container image? | Definition from TechTarget,” IT Operations. https://www.techtarget.com/searchitoperations/definition/container-image"
+    },
+    {
+      "ID": 24,
+      "Term": "Repositories",
+      "Description": "Storage locations for versioned code, configuration, and artifacts, facilitating collaboration and version control in software development.",
+      "References": "[24] “Repositories,” Docker Documentation, Dec. 18, 2020. https://docs.docker.com/docker-hub/repos/"
+    },
+    {
+      "ID": 25,
+      "Term": "Docker Image",
+      "Description": "A lightweight, standalone, executable software package that includes everything needed to run a piece of software, including code, runtime, libraries, and system tools.",
+      "References": "[25] “What is a Docker Image? Introduction and use cases,” IT Operations.https://www.techtarget.com/searchitoperations/definition/Docker-image#:~:text=A%20Docker%20image%20is%20a"
+    },
+    {
+      "ID": 26,
+      "Term": "Declarative Container Management",
+      "Description": "The approach of specifying the desired state of containers and infrastructure, letting automated tools ensure the actual state matches the desired state.",
+      "References": "[26] Packtpub.com, 2022. https://subscription.packtpub.com/book/cloud-and-networking/9781800562387/3/ch03lvl1sec20/declarative-container-management-with-docker-compose"
+    },
+    {
+      "ID": 27,
+      "Term": "Cloud Native",
+      "Description": "Designing and building applications that leverage cloud resources, dynamically scale, and follow modern architecture patterns for resilience and flexibility.",
+      "References": "[27] “What is Cloud Native? - Cloud Native Explained - AWS,” Amazon Web Services, Inc. https://aws.amazon.com/what-is/cloud-native/"
+    },
+    {
+      "ID": 28,
+      "Term": "Docker Compose",
+      "Description": "A tool to define and manage multi-container applications using a simple YAML file, enabling easy orchestration of interconnected services.",
+      "References": "[28] “What is Docker Compose: Benefits and Basic Commands,” Simplilearn.com. https://www.simplilearn.com/tutorials/docker-tutorial/docker-compose"
+    },
+    {
+      "ID": 29,
+      "Term": "Azure Storage",
+      "Description": "A cloud-based storage service provided by Microsoft Azure, offering scalable and durable data storage solutions for various types of data.",
+      "References": "[29] tamram, “Introduction to Azure Storage - Cloud storage on Azure,” learn.microsoft.com, 2023. https://learn.microsoft.com/en-us/azure/storage/common/storage-introduction"
+    },
+    {
+      "ID": 30,
+      "Term": "MongoDB",
+      "Description": "An open-source NoSQL database system that stores data in a flexible, schema-less format, making it suitable for handling diverse and rapidly changing data.",
+      "References": "[30] MongoDB, “What Is MongoDB?,” MongoDB, 2019. https://www.mongodb.com/what-is-mongodb"
+    },
   ];
 
   res.render('index', {
