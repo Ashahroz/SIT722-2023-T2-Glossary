@@ -184,6 +184,126 @@ router.get('/', function(req, res, next) {
       "Description": "An open-source NoSQL database system that stores data in a flexible, schema-less format, making it suitable for handling diverse and rapidly changing data.",
       "References": "[30] MongoDB, “What Is MongoDB?,” MongoDB, 2019. https://www.mongodb.com/what-is-mongodb"
     },
+    {
+      "ID": 31,
+      "Term": "Docker Volume",
+      "Description": "Docker volumes are data storage mechanisms that allow data to persist across containers, ensuring data durability and enabling data sharing between containers.",
+      "References": "[31] “Use volumes,” Docker Documentation, Jan. 04, 2019. https://docs.docker.com/storage/volumes/"
+    },
+    {
+      "ID": 32,
+      "Term": "Load Balancing",
+      "Description": "The process of distributing network traffic across multiple servers or resources to ensure efficient utilization and high availability.",
+      "References": "[32] “Service,” Kubernetes. https://kubernetes.io/docs/concepts/services-networking/service/"
+    },
+    {
+      "ID": 33,
+      "Term": "Docker Networking",
+      "Description": "Networking in the context of containerization involves managing communication between containers and external networks.",
+      "References": "[33] “Networking overview,” Docker Documentation, Apr. 23, 2021. https://docs.docker.com/network/"
+    },
+    {
+      "ID": 34,
+      "Term": "Bridge Network",
+      "Description": "A default network mode in Docker where containers can communicate with each other using internal IP addresses.",
+      "References": "[34] “Bridge network driver,” Docker Documentation, Aug. 22, 2023. https://docs.docker.com/network/drivers/bridge/"
+    },
+    {
+      "ID": 35,
+      "Term": "Overlay Network",
+      "Description": "A Docker network type that enables communication between containers running on different Docker hosts, forming a distributed network.",
+      "References": "[35] “Overlay network driver,” Docker Documentation, Aug. 22, 2023. https://docs.docker.com/network/drivers/overlay/"
+    },
+    {
+      "ID": 36,
+      "Term": "Macvlan Network",
+      "Description": "Docker network allowing containers to have their own MAC addresses, making them appear as separate physical devices on the network.",
+      "References": "[36] “Macvlan network driver,” Docker Documentation, Aug. 22, 2023. https://docs.docker.com/network/drivers/macvlan/ "
+    },
+    {
+      "ID": 37,
+      "Term": "Direct Communication (HTTP)",
+      "Description": "Direct data exchange between software components via the Hypertext Transfer Protocol (HTTP) over a network.",
+      "References": "[37] MDN Contributors, “HTTP,” MDN Web Docs, Aug. 03, 2019. https://developer.mozilla.org/en-US/docs/Web/HTTP"
+    },
+    {
+      "ID": 38,
+      "Term": "Indirect Communication (Message Passing)",
+      "Description": "Communication method where software components exchange data through messages, often using message queues or publish-subscribe systems.",
+      "References": "[38] “Message passing,” Wikipedia, May 15, 2021. https://en.wikipedia.org/wiki/Message_passing"
+    },
+    {
+      "ID": 39,
+      "Term": "Automated Rollouts and Rollbacks",
+      "Description": "The practice of automatically deploying and, if necessary, reverting to previous versions of software to maintain system stability.",
+      "References": "[39] S. Blog, “Know how to rollout and rollback deployments in Kubernetes,” Saeloun Blog. https://blog.saeloun.com/2022/06/06/kubernetes-rollback/"
+    },
+    {
+      "ID": 40,
+      "Term": "HCL (HashiCorp Configuration Language)",
+      "Description": "A domain-specific language used for writing configuration files for various infrastructure-as-code tools like Terraform.",
+      "References": "[40] “[HCL] - What is HCL Infrastructure Automation Language?,” www.shecodes.io. https://www.shecodes.io/athena/2110-what-is-hcl-infrastructure-automation-language#:~:text=HCL%20"
+    },
+    {
+      "ID": 41,
+      "Term": "Deployment Pipeline",
+      "Description": "A set of automated processes and stages for building, testing, and deploying software applications, typically using Continuous Integration/Continuous Deployment (CI/CD) practices.",
+      "References": "[41] “What is a Deployment Pipeline?,” PagerDuty. https://www.pagerduty.com/resources/learn/what-is-a-deployment-pipeline/#:~:text=In%20software%20development%2C%20a%20deployment"
+    },
+    {
+      "ID": 42,
+      "Term": "Kubernetes Cluster",
+      "Description": "A collection of interconnected machines (nodes) managed by Kubernetes for orchestrating containerized applications.",
+      "References": "[42] “Overview,” Kubernetes. https://kubernetes.io/docs/concepts/overview/"
+    },
+    {
+      "ID": 43,
+      "Term": "Hosted code repository",
+      "Description": "An online platform (e.g., GitHub, GitLab, Bitbucket) where developers can store and manage their source code repositories.",
+      "References": "[43] “What is a Code Repository? Best Code Repo Hosting in 2021 (Updated for 2022) | The Aloa Blog,” aloa.co. https://aloa.co/blog/what-is-code-repository-best-code-repo-hosting-2021"
+    },
+    {
+      "ID": 44,
+      "Term": "Bitbucket",
+      "Description": "A web-based platform for version control and collaboration, commonly used for hosting Git repositories.",
+      "References": "[44] “Bitbucket,” Wikipedia, Apr. 05, 2020. https://en.wikipedia.org/wiki/Bitbucket"
+    },
+    {
+      "ID": 45,
+      "Term": "Regression Test",
+      "Description": "A type of software testing that verifies whether changes in code have affected existing functionality, ensuring that new updates don't introduce defects.",
+      "References": "[45] T. Hamilton, “What is Regression Testing? Definition, Test Cases (Example),” Guru99.com, Sep. 30, 2019. https://www.guru99.com/regression-testing.html"
+    },
+    {
+      "ID": 46,
+      "Term": "Security Test",
+      "Description": "The process of evaluating a software system's security to identify vulnerabilities and weaknesses.",
+      "References": "[46] T. Hamilton, “What is Security Testing? Types with Example,” Guru99.com, Dec. 04, 2019. https://www.guru99.com/what-is-security-testing.html"
+    },
+    {
+      "ID": 47,
+      "Term": "Jest",
+      "Description": "A popular JavaScript testing framework, commonly used for unit and integration testing in web development.",
+      "References": "[47] “Jest,” jestjs.io. https://jestjs.io/#:~:text=Jest%20is%20a%20JavaScript%20testing"
+    },
+    {
+      "ID": 48,
+      "Term": "Unit Testing",
+      "Description": "A software testing technique where individual units or components of code are tested in isolation to ensure their correctness.",
+      "References": "[48] Wikipedia Contributors, “Unit testing,” Wikipedia, Jun. 14, 2019. https://en.wikipedia.org/wiki/Unit_testing"
+    },
+    {
+      "ID": 49,
+      "Term": "Integration Testing",
+      "Description": "A testing approach that verifies the interactions between different components or modules within a system.",
+      "References": "[49] Wikipedia Contributors, “Integration testing,” Wikipedia, Aug. 07, 2019. https://en.wikipedia.org/wiki/Integration_testing"
+    },
+    {
+      "ID": 50,
+      "Term": "End-to-end Testing",
+      "Description": "A testing method that evaluates the functionality of an application across its entire workflow, simulating real user interactions.",
+      "References": "[50] “What is End To End Testing?,” BrowserStack. https://www.browserstack.com/guide/end-to-end-testing#:~:text=End%2Dto%2Dend%20testing%20is%20a%20type%20of%20testing%20that"
+    },
   ];
 
   res.render('index', {
